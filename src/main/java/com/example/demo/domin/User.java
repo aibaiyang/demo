@@ -1,5 +1,6 @@
 package com.example.demo.domin;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import javax.persistence.Entity;
@@ -10,6 +11,7 @@ import java.io.Serializable;
 
 @Entity
 @Data
+@AllArgsConstructor
 public class User implements Serializable {
 
     @Id
