@@ -15,7 +15,8 @@
 *.iws
 *.iml
 *.ipr
-.pom.xml
+pom.xml
+by.txt
 
 ### NetBeans ###
 /nbproject/private/
